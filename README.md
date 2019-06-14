@@ -1,2 +1,1 @@
-# FIFA-data-app
-Repo for data app
+# data-app
