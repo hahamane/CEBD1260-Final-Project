@@ -26,7 +26,6 @@ def overall_prediction():
 	df=pd.read_excel('Data/Processed/Data_with_Potential.xlsx')
 	name = str(df.iloc[position,0])
 	df=df[df['Name']==name]
-	print(df)
 	age = year + df['Age'].tolist()[0]
 	potential = df['Potential'].tolist()[0]
 	current_rate = df['Overall'].tolist()[0]
